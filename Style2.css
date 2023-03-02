@@ -1,0 +1,189 @@
+﻿*{
+    padding:0px;
+    margin:0px;
+}
+.main {
+    background-image: url(image/bg.jpg);
+    height: 100vh;
+    font-family: monospace;
+    background-size: cover;
+    border: 0px solid blue;
+    background-attachment: fixed;
+}
+    .main img {
+        height:20px;
+        width:50px;
+    }
+
+
+.contain {
+    margin: 100px 20px 20px 20%;
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgb(42, 20, 99);
+    text-align: center;
+    height: 50vh;
+    width:700px;
+}
+.h_contact {
+    color: white;
+    font-size:20px;
+    font-family:'Comic Sans MS';
+}
+
+.form_box {
+    text-align: left;
+    width:300px;
+    float: right;
+    margin: 50px 0px 0px 0px;
+    line-height: 20px;
+    font-size:15px;
+}
+
+
+.hire_img img {
+    margin-top: 100px;
+    height: 150px;
+    width: 300px;
+}
+
+.rest {
+    background-color: rgb(22, 13, 31);
+    color: white;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.message {
+    width:92%;
+    height:70px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form_box input {
+    width:95%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sub_bt {
+    margin: 0px 0px 0px 0px;
+    color: red;
+}
+
+    .sub_bt button {
+        border-radius: 5px;
+        background-color: rgb(75, 41, 163);
+        width: 100%;
+        padding: 7px;
+        color: white;
+        cursor: pointer;
+    }
+.sub_bt button:hover{
+    transform:translateX(-10px);
+    transition:ease-in-out 0.25s;
+}
+
+        .face img, .insta img, .link img {
+            margin: 0px 30px 0px 0px;
+            height: 50px;
+        }
+
+.social {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    margin: 100px 0px 0px 0px;
+}
+.face img:hover, .insta img:hover, .link img:hover{
+    transform:translateY(-10px);
+    transition:ease-in-out 0.25s;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    main {
+        background-image: url(image/bg.jpg);
+        height: 100vh;
+        font-family: monospace;
+        background-size: cover;
+        border: 0px solid blue;
+        background-attachment: fixed;
+    }
+
+    .main img {
+        height: 20px;
+        width: 50px;
+    }
+
+
+    .contain {
+        margin: 100px 20px 20px 20px;
+        border-radius: 20px;
+        padding: 0px;
+        background-color: rgb(42, 20, 99);
+        text-align: center;
+        height: 50vh;
+        width:auto;
+    }
+    .h_contact{
+       font-size:15px;
+      
+       color:white;
+    }
+    .form_box{
+        text-align:left;
+        width:fit-content;
+        float:right;
+        margin:50px 0px 0px 0px;
+        line-height:20px;
+    }
+    .hire_img img{
+        margin-top:100px;
+        height:100px;
+        width:150px;
+    }
+    .rest {
+        background-color: rgb(22, 13, 31);
+        color:white;
+        height:440px;
+        border-radius:20px;
+    }
+    .message{
+        width:auto;
+        border-radius:10px;
+        padding:10px;
+    }
+    .form_box input {
+        width: auto;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .sub_bt{
+        margin:0px 0px 0px 0px;
+        color:red;
+        
+    }
+        .sub_bt button{
+            border-radius: 5px;
+            background-color: rgb(75, 41, 163);
+            width:100%;
+            padding:7px;
+            color:white;
+            cursor:pointer;
+        }
+    .face img, .insta img,.link img{
+        margin:0px 30px 0px 0px;
+        height:50px;
+    }
+    .social{
+        display:flex;
+        padding:10px 10px 10px 20px;
+        margin:150px 0px 0px 0px;
+    }
+
+
+}
